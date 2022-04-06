@@ -11,3 +11,4 @@ const pessoa = {
 };
 saudarComOla(pessoa);
 mudarNome(pessoa);
+saudarComOla(pessoa);
