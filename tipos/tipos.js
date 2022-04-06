@@ -44,3 +44,8 @@ console.log(minhaCor);
 console.log(Cor.Azul);
 console.log(Cor.Verde, Cor.Azul);
 console.log(Cor.Verde, Cor.Vermelho); // É possível atribuir valores duplicados
+// Any
+let carro = "BMW";
+console.log(carro);
+carro = { marca: "BMW", ano: 2019 };
+console.log(carro);
