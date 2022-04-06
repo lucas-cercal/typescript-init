@@ -7,9 +7,13 @@ function mudarNome(pessoa) {
 }
 const pessoa = {
     nome: "Lucas",
-    idade: 22
+    idade: 22,
+    saudar(sobrenome) {
+        console.log("Olá, meu nome é " + this.nome + " " + sobrenome);
+    }
 };
 saudarComOla(pessoa);
 mudarNome(pessoa);
 saudarComOla(pessoa);
-saudarComOla({ nome: "Lucas", idade: 22, altura: 1.75 });
+// saudarComOla({nome: "Lucas", idade: 22, altura: 1.75})
+pessoa.saudar("Skywaler");
