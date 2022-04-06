@@ -35,3 +35,20 @@ console.log(endereco)
 
 endereco = ["Rua importante", 101, "Bloco C"]
 console.log(endereco)
+
+// Enums
+enum Cor {
+  Cinza, // 0
+  Verde = 100, // 100
+  Azul = 10, // 10
+  Laranja,
+  Amarelo,
+  Vermelho = 100 // 100
+}
+
+let minhaCor: Cor = Cor.Cinza
+console.log(minhaCor) 
+
+console.log(Cor.Azul)
+console.log(Cor.Verde, Cor.Azul)
+console.log(Cor.Verde, Cor.Vermelho) // É possível atribuir valores duplicados
